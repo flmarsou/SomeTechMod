@@ -1,0 +1,12 @@
+# gradle
+.gradle/
+build/
+
+# vscode
+.vscode/
+
+# fabric
+run/
+
+# other
+.github
