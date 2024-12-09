@@ -1,3 +1,5 @@
 {
-	"item.sometechmod.copper_dust": "Copper Dust"
+	"item.sometechmod.copper_dust": "Copper Dust",
+
+	"block.sometechmod.tin_ore": "Tin Ore"
 }
