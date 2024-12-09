@@ -8,12 +8,16 @@ import net.minecraft.util.Identifier;
 
 public class ModItems
 {
-	public static final Item COPPER_DUST = register(new Item(new Item.Settings()), "copper_dust");
+	public static final Item COPPER_DUST = register("copper_dust", new Item(new Item.Settings()));
 
-	public static Item register(Item item, String id)
+	public static Item register(String name, Item item)
 	{
-		Identifier itemID = Identifier.of(SomeTechMod.MOD_ID, id);
+		// Creates the identifier for the item.
+		Identifier itemID = Identifier.of(SomeTechMod.MOD_ID, name);
+
+		// Registers the item.
 		Item registerItem = Registry.register(Registries.ITEM, itemID, item);
+
 		return (registerItem);
 	}
 
