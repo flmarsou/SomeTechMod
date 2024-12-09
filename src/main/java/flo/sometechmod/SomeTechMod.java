@@ -5,6 +5,8 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import flo.sometechmod.item.ModItems;
+
 public class SomeTechMod implements ModInitializer
 {
 	public static final String MOD_ID = "sometechmod";
@@ -13,6 +15,6 @@ public class SomeTechMod implements ModInitializer
 	@Override
 	public void onInitialize()
 	{
-		
+		ModItems.initialize();
 	}
 }
