@@ -8,7 +8,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems
 {
-	public static final Item COPPER_DUST = register("copper_dust", new Item(new Item.Settings()));
+	public static final Item COPPER_DUST = register("raw_tin", new Item(new Item.Settings()));
 
 	public static Item register(String name, Item item)
 	{
